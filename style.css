@@ -1,0 +1,213 @@
+body {
+	font-size: 16px;
+	background-image: url("images/bg.png");
+	color: black;
+
+}
+
+
+.header {
+  background-image: url("images/banner2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 800px;
+  height: 410px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+/*Everything underneath the header. For positioning.*/
+    width: 900px;
+	height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.main div {
+/*The site's parts are positioned using this. Each part is considered a child of the 'main' class and can be positioned in relation to it. This means when I add buttons to a sidebar I don't have to reposition everything else in relation to them.*/
+}
+
+.frame {
+/*Styling and positioning the I-Frame. Equivalent to 'Content' on 1.0.
+Keep width here the same as width on page.*/
+	margin: auto;
+	right: 23px;
+	
+	width: 600px;
+	
+	text-align: center;
+	position: relative;
+	display: block;
+	
+}
+
+.sidebar {
+/*The side navigation bar on the left, with page buttons etc.*/
+    position: absolute;
+}
+
+.sidebar div {
+	
+}
+
+.about {
+/*Every button now has it's own class, for the style switcher.*/
+	background-image: url("images/button-about4.png");
+	background-repeat: no-repeat;
+    background-position: center bottom;
+	width: 200px;
+	height: 129px;
+	display: block;
+	text-align: center;
+	position: relative;
+	left: -80px;
+}
+
+.gallery {
+	background-image: url("images/button-gallery2.png");
+	background-repeat: no-repeat;
+    background-position: center bottom;
+	width: 200px;
+	height: 149px;
+	display: block;
+	text-align: center;
+	position: relative;
+	left: -80px;
+	top: 3px;
+}
+
+.aviary {
+	background-image: url("images/button-aviary2.png");
+	background-repeat: no-repeat;
+    background-position: center bottom;
+	width: 200px;
+	height: 129px;
+	display: block;
+	text-align: center;
+	position: relative;
+	left: -80px;
+}
+
+.idiotbox {
+	background-image: url("images/button-idiotbox.png");
+	background-repeat: no-repeat;
+    background-position: center bottom;
+	width: 200px;
+	height: 129px;
+	display: block;
+	text-align: center;
+	position: relative;
+	left: -80px;
+}
+
+.arcade {
+	background-image: url("images/button-arcade3.png");
+	background-repeat: no-repeat;
+    background-position: center bottom;
+	width: 200px;
+	height: 129px;
+	display: block;
+	text-align: center;
+	position: relative;
+	left: -80px;
+}
+
+.closet {
+	background-image: url("images/button-closet.png");
+	background-repeat: no-repeat;
+    background-position: center bottom;
+	width: 200px;
+	height: 129px;
+	display: block;
+	text-align: center;
+	position: relative;
+	left: -80px;
+}
+
+.radio {
+	background-image: url("images/button-radio2.png");
+	background-repeat: no-repeat;
+    background-position: center bottom;
+	width: 200px;
+	height: 129px;
+	display: block;
+	text-align: center;
+	position: relative;
+	left: -80px;
+}
+
+.surf {
+	background-image: url("images/button-surf2.png");
+	background-repeat: no-repeat;
+    background-position: center bottom;
+	width: 200px;
+	height: 129px;
+	display: block;
+	text-align: center;
+	position: relative;
+	left: -80px;
+}
+
+.extras {
+	background-image: url("images/button-extra.png");
+	background-repeat: no-repeat;
+    background-position: center bottom;
+	width: 200px;
+	height: 129px;
+	display: block;
+	text-align: center;
+	position: relative;
+	left: -80px;
+}
+
+.cocktailbar {
+	/*The right, 'extra' sidebar with decorative doohickeys and webrings.*/
+	width: 155px;
+	position: absolute;
+	margin-left: 780px;
+	margin-top: 4px;
+	
+}
+
+.cocktailbar div {
+	display: block;
+	
+	border-style: ridge;
+	border-color: gray;
+	
+	margin: 4px;
+	padding: 7px;
+	
+	width: 155px;
+	height: auto;
+	
+	text-align: center;
+	
+	position: relative;
+	right: 20px;
+	background-color: white;
+}
+
+iframe {  
+/*Gets rid of the annoying grey auto-border in the Iframe.*/  
+ border: 0;
+ overflow: hidden;
+ display: block;
+ 
+}
+
+/*CSS debug tool.
+*{ border: 1px solid red; }
+
+*//*Will this fix my header woes?*/
+@font-face {
+	font-family: "Badaboom";
+	src: url("fonts/BADABB__.ttf");
+}
+
+.content h1, h2 {
+	font-family: "Badaboom";
+	letter-spacing: 2px;
+}

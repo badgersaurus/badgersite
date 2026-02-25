@@ -1,0 +1,94 @@
+body {
+	font-size: 14px;
+	color: black;
+	text-align: center;
+}
+
+@font-face {
+	src: url("fonts/BADABB__.TTF");
+	font-family: "Badaboom";
+}
+
+.content h1, h2 {
+	font-family: "Badaboom";
+	letter-spacing: 2px;
+}
+
+.content h1 {
+ font-size: 45px;
+}
+
+.content h2 {
+	font-size: 30px;
+}
+
+.content a {
+	font-size: 16px;
+	color: #562384;
+}
+
+ul {
+	list-style-position: outside;
+	text-align: left;
+}
+
+ol {
+	list-style-position: outside;
+	text-align: left;
+}
+
+.content div .normallist {
+	text-align: left;
+	margin: auto;
+	border-style: none;
+}
+
+.normallist ul {
+	margin: auto;
+}
+
+.normallist li + li {
+	margin-top: 7px;
+}
+
+table {
+	margin-left: 70px;
+	margin-right: 30px;
+}
+
+th {
+	text-align: left;
+	vertical-align: top;
+}
+.content {
+
+}
+
+.content div {
+	display: block;
+	
+	border-style: ridge;
+	border-color: gray;
+	
+	margin-bottom: 3px;
+	padding: 10px;
+	
+	background-color: white;
+	
+	font-size: 16px;
+}
+
+.content .footnote {
+	border-style: none;
+}
+
+.footnote div {
+	display: block;
+	
+	border-style: dashed;
+	border-color: #a2e834;
+	
+	background-color: #ddf3b4;
+	
+	font-size: 16px;
+}

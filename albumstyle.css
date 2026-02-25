@@ -1,0 +1,78 @@
+body {
+	font-size: 16px;
+	background-image: url("images/albumwall-bg.jpg");
+	background-repeat: repeat;
+		color: black;
+}
+
+
+@font-face {
+	font-family: "Funk Master";
+	src: url("fonts/Funk Master.ttf");
+}
+
+a {
+	color: #562384;
+}
+
+h1 {
+	font-size: 65px;
+	font-family: "Funk Master";
+}
+
+.title {
+	text-align: center;
+	background-color: white;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 8px solid;
+	border-color: f4d142;
+	border-radius: 25px;
+	margin-bottom: 10px;
+}
+
+.intro {
+    text-align: center;
+	background-color: white;
+	width: 600px;
+	padding: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 8px solid;
+	border-color: f4d142;
+	border-radius: 25px;	
+}
+
+.albums {
+    text-align: center;	
+}
+
+h2 {
+	background-color: white;
+	font-size: 30px;
+	width: 300px;
+	padding: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 8px solid;
+	border-color: f4d142;
+	border-radius: 25px;
+	font-family: "Funk Master";
+	text-align: center;	
+}
+
+.albums img {
+	width: 250px;
+}
+
+.stickers {
+	/*Oh CSS positioning, why do you torment me so?*/
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+.stickers img {
+}
